@@ -1,0 +1,25 @@
+name: multiome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python
+  - scanpy
+  - muon
+  - scvi-tools
+  - anndata
+  - pytorch
+  - seaborn
+  - matplotlib
+  - numpy
+  - pandas
+  - jupyterlab
+  - pyarrow
+  - loompy
+  - pycistopic
+  - pychromvar
+  - pip
+  - pip:
+      - pyscenic
+      - gimmemotifs
