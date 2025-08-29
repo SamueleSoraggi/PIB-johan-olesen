@@ -5,8 +5,9 @@ channels:
   - defaults
 dependencies:
   - python
-  - scanpy
-  - muon
+  - python-igraph
+  - scanpy=1.11.4
+  - muon=0.1.6
   - scvi-tools
   - anndata
   - pytorch
@@ -17,9 +18,20 @@ dependencies:
   - jupyterlab
   - pyarrow
   - loompy
-  - pycistopic
-  - pychromvar
+  - ipywidgets
+  - gimmemotifs
+#  - pyscenic
   - pip
   - pip:
       - pyscenic
-      - gimmemotifs
+#      - gimmemotifs
+      - pychromvar
+      - jupyterlab-quarto
+
+#to install pycistopic
+# git clone https://github.com/aertslab/scenicplus.git
+# cd scenicplus
+# pip install .
+#
+#
+#
