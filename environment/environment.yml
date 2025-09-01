@@ -4,7 +4,7 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - python
+  - python=3.11.8
   - python-igraph
   - scanpy=1.11.4
   - muon=0.1.6
@@ -27,7 +27,7 @@ dependencies:
 #      - gimmemotifs
       - pychromvar
       - jupyterlab-quarto
-
+      - git+https://github.com/aertslab/scenicplus.git
 #to install pycistopic
 # git clone https://github.com/aertslab/scenicplus.git
 # cd scenicplus
