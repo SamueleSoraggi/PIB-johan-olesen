@@ -29,3 +29,9 @@ Project in bioinformatics with multiomics single cell data
     ```
     - real datasets for spermatogenesis
 
+	- Possible sources
+		- https://elifesciences.org/articles/97958 OA and NOA (azoospermia)
+		- https://www.nature.com/articles/s41598-022-25729-7 case-control (Retinoic acid)
+		- https://academic.oup.com/hmg/article/31/3/321/6089117?login=true (healthy spermatogenesis)
+		- https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1138386/full NOA (azoospermia)
+
