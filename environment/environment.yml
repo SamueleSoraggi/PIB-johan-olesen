@@ -12,6 +12,7 @@ dependencies:
   - anndata
   - pytorch
   - seaborn
+  - leidenalg
   - matplotlib
   - numpy
   - pandas
