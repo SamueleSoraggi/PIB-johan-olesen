@@ -208,3 +208,5 @@ __marimo__/
 
 # added now
 data/
+Notebooks/atac_models/
+Notebooks/CellAssign_models/

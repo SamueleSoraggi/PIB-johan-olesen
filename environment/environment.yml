@@ -1,13 +1,13 @@
-name: multiome
+name: multiome2
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - python=3.11.8
+  - python
   - python-igraph
-  - scanpy=1.11.4
-  - muon=0.1.6
+  - scanpy
+  - muon
   - scvi-tools
   - anndata
   - pytorch
@@ -24,11 +24,11 @@ dependencies:
 #  - pyscenic
   - pip
   - pip:
-      - pyscenic
+#      - pyscenic
 #      - gimmemotifs
       - pychromvar
       - jupyterlab-quarto
-      - git+https://github.com/aertslab/scenicplus.git
+#      - git+https://github.com/aertslab/scenicplus.git
 #to install pycistopic
 # git clone https://github.com/aertslab/scenicplus.git
 # cd scenicplus
