@@ -53,6 +53,7 @@ dependencies:
       - debugpy==1.8.17
       - decorator==5.2.1
       - defusedxml==0.7.1
+      - deprecated==1.2.18
       - docrep==0.3.2
       - donfig==0.8.1.post1
       - executing==2.2.1
@@ -62,6 +63,8 @@ dependencies:
       - fqdn==1.5.1
       - frozenlist==1.7.0
       - fsspec==2025.9.0
+      - future==1.0.0
+      - graphtools==1.5.2
       - grpcio==1.75.0
       - h11==0.16.0
       - h5py==3.14.0
@@ -112,6 +115,7 @@ dependencies:
       - mpmath==1.3.0
       - mudata==0.3.2
       - multidict==6.6.4
+      - muon==0.1.7
       - natsort==8.4.0
       - nbclient==0.10.2
       - nbconvert==7.16.6
@@ -156,10 +160,12 @@ dependencies:
       - pure-eval==0.2.3
       - pycparser==2.23
       - pygments==2.19.2
+      - pygsp==0.6.1
       - pynndescent==0.5.13
       - pyparsing==3.2.5
       - pyro-api==0.1.2
       - pyro-ppl==1.9.1
+      - pysam==0.23.3
       - python-dateutil==2.9.0.post0
       - python-json-logger==3.3.0
       - pytorch-lightning==2.5.5
@@ -174,6 +180,7 @@ dependencies:
       - rich==14.1.0
       - rpds-py==0.27.1
       - scanpy==1.11.4
+      - scdart==0.1.dev0
       - scikit-learn==1.7.2
       - scikit-misc==0.5.1
       - scipy==1.16.2
@@ -189,6 +196,7 @@ dependencies:
       - stack-data==0.6.3
       - statsmodels==0.14.5
       - sympy==1.14.0
+      - tasklogger==1.2.0
       - tensorboard==2.20.0
       - tensorboard-data-server==0.7.2
       - terminado==0.18.1
@@ -214,6 +222,7 @@ dependencies:
       - webencodings==0.5.1
       - websocket-client==1.8.0
       - werkzeug==3.1.3
+      - wrapt==1.17.3
       - xarray==2025.9.0
       - yarl==1.20.1
       - zarr==3.1.3
