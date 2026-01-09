@@ -12,9 +12,7 @@ Initial:
 - work with real messy data
 - Answer:
   - Cell states & trajectories: Can we recover a clean spermatogenic trajectory (spermatogonia → spermatocytes → spermatids) and supporting somatic lineages?
-
   - Peak→gene linkage: Which distal elements likely regulate stage-specific genes?
-
   - TF programs: Which TFs show coordinated motif accessibility + target expression? (e.g., STRA8, A-MYB, TAF7L)
 
 Actually done:
@@ -26,10 +24,29 @@ Actually done:
 - Cell topic for scATAC-seq
 
 
-== Workflow
+== Workflow Overview
 
-#figure(image("figs/stage1_schematic.svg"),
-  caption: [Stage 1 schematic of data aquisition and preparation.])
+#figure(
+  image("figs/stage1_schematic.svg"),
+  caption: [Stage 1 schematic of data aquisition and preparation.]
+) <stage1>
+
+#figure(
+  image("figs/stage2_schematic.svg"),
+  caption: [Stage 2 schematic of scRNA-seq celltype annotation with a _semi-manual_ way and CellAssign model.]
+) <stage2>
+
+#figure(
+  image("figs/stage3_fail_schematic.svg"),
+  caption: [Stage 3 schematic of attempt at label transfer by integrating scRNA-seq and scATAC-seq.]
+) <stage3fail>
+
+#figure(
+  image("figs/pycistopic_schematic.png"),
+  caption: [Stage 3 schematic of pycistopic workflow from PyCistopic documentation. @gonzalez-blasFeaturesPycisTopicDocumentation]
+) <stage3>
+
+Flowcharts drawn with `draw.io`.
 
 === Environment setup with Conda
 
@@ -38,3 +55,9 @@ First step was to get a working environment setup for the analyses. For this Con
 For the tutorial run and scRNA-seq labelling the environmnet `torch_env.yml` @soraggiSamueleSoraggiPIBjohanolesen2025 was used. This environment includes the scverse's anndata @virshupAnndataAccessStore2024, mudata @virshupScverseProjectProvides2023, scanpy @wolfSCANPYLargescaleSinglecell2018, muon @bredikhinMUONMultimodalOmics2022 and scvi-tools @gayosoPythonLibraryProbabilistic2022 packages, as well as full PyTorch @anselPyTorch2Faster2024 CUDA capabilities for scvi-tools.
 
 For the second scATAC-seq workflow another environment was used because of versioning requirements; `cistopic_env.yml`, consisting of the SCENIC+ @bravogonzalez-blasSCENICSinglecellMultiomic2023 suite.
+
+=== Tutorial run
+
+To start of before real testis data had been found. A quick run through of the tutorial run of multiome 10X PBMC @bredikhinProcessingGeneExpression by Bredikin to get a quick overview of how to work with single cell data and anndata objects, and to check Conda environment worked.
+
+Was succesful in creating the same analysis as the tutorial.

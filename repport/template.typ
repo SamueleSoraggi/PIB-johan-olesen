@@ -12,7 +12,7 @@
 
   // Set fonts
   set text(font: "New Computer Modern")
-  show raw: set text(font: "New Computer Modern Mono")
+  show raw: set text(font: "JetBrains Mono")
   show math.equation: set text(font: "New Computer Modern Math")
   set text(ligatures: true)
 
