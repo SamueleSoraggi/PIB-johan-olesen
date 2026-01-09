@@ -17,11 +17,17 @@ Initial:
 
 Actually done:
 - learn basics of git
-- learn sc workflow with scanpy, muon and scvi-tools
+- learn how to do Conda environment reproducibility
+- small shell scripts to run on SLURM.
+- learn single cell workflow with scanpy, muon and scvi-tools
 - work with real messy data
 - Answer: Cell states & trajectories: Can we recover a clean spermatogenic trajectory (spermatogonia → spermatocytes → spermatids) and supporting somatic lineages?
-- Celltype annotation of both scRNA-seq and scATAC-seq.
-- Cell topic for scATAC-seq
+- Succefull celltype annotation of both scRNA-seq and scATAC-seq.
+- Cell topics and DARs for scATAC-seq for further analysis
+
+=== Data availability
+
+All environment files, notebooks and scripts as well as the repport files for this project are available on a public github repository: #link("https://github.com/SamueleSoraggi/PIB-johan-olesen")[SamueleSoraggi/PIB-johan-olesen].
 
 
 == Workflow Overview

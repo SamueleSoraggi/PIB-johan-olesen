@@ -46,8 +46,19 @@
   // Set citation style
   set cite(style: "council-of-science-editors")
 
-  // Table stroke
-  set table(stroke: 0.5pt + black)
+  // Table settings
+  set table(align: left,
+            stroke: 0.5pt + black,
+            fill: (_, row) => {
+              if row == 0 {
+                rgb(220, 220, 220)
+              } else if calc.rem(row,  2) == 0 {
+                rgb(242, 242, 242)
+              } else {
+                rgb(255, 255, 255)
+              }
+            },
+  )
 
   // show reference targets
   show ref: it => {
