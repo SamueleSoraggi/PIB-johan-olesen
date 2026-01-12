@@ -32,27 +32,36 @@ All environment files, notebooks and scripts as well as the repport files for th
 
 == Workflow Overview
 
+The report is divided into three stages each with individual goals showing the different stages of the project. Stage 1 being the preliminary stage of aquiring data and getting it into a format where analysis can be begun. Stage 1 is described in @stage1.
+
 #figure(
   image("figs/stage1_schematic.svg"),
   caption: [Stage 1 schematic of data aquisition and preparation.]
 ) <stage1>
+
+The goal of stage 2 is to annotate the scRNA-seq data with celltypes. It is described in @stage2.
 
 #figure(
   image("figs/stage2_schematic.svg"),
   caption: [Stage 2 schematic of scRNA-seq celltype annotation with a _semi-manual_ way and CellAssign model.]
 ) <stage2>
 
+Stage 3 is about celltype annotation of the scATAC-seq data.
+
 #figure(
   image("figs/stage3_fail_schematic.svg"),
-  caption: [Stage 3 schematic of attempt at label transfer by integrating scRNA-seq and scATAC-seq.]
+  caption: [Stage 3a schematic of attempt at label transfer by integrating scRNA-seq and scATAC-seq.]
 ) <stage3fail>
+
+Flowcharts drawn with `draw.io`.
+
+Stage 3 was supposed to continue from after the celltype annotation to answer the other two research question, but did not due to ime constraints.
 
 #figure(
   image("figs/pycistopic_schematic.png"),
-  caption: [Stage 3 schematic of pycistopic workflow from PyCistopic documentation. @gonzalez-blasFeaturesPycisTopicDocumentation]
+  caption: [Stage 3b schematic of pycistopic workflow from PyCistopic documentation. @gonzalez-blasFeaturesPycisTopicDocumentation]
 ) <stage3>
 
-Flowcharts drawn with `draw.io`.
 
 === Environment setup with Conda
 

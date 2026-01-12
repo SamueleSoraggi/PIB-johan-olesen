@@ -75,9 +75,76 @@ Example of NOA1 sample:
     [Round.SD], [TNP2, LINC02314, LINC01921, PRSS37, FBXO39, LINC02400, DHRS3, FAM205C, CXorf65, SCP2D1, LINC01548, CCDC179, AC010255.3, SPEM3],
     [Elongated.SD], [TSSK6, CABS1, SPATA3, CCDC196, TSPAN16, PHOSPHO1, SPEM2, TEX44, LRRD1, SPEM1, GLUL],
   )
-)
+) <markers>
 
 = scATAC-seq
+
+== UMAP plots of integration of each scATAC-seq sample <integration_complete>
+
+#subpar.grid(
+  figure(
+    image("figs/NOA1_atac_files/NOA1_atac_36_0.png"),
+    caption: [NOA1 batch],
+  ), <NOA1_tech>,
+
+  figure(
+    image("figs/NOA1_atac_files/NOA1_atac_41_0.png"),
+    caption: [NOA1 celltyp assignment],
+  ), <NOA1_celltype>,
+
+  //-----------------
+
+  figure(
+    image("figs/NOA2_atac_files/NOA2_atac_35_0.png"),
+    caption: [NOA2 batch],
+  ), <NOA2_tech>,
+
+  figure(
+    image("figs/NOA2_atac_files/NOA2_atac_40_0.png"),
+    caption: [NOA2 celltype assignment],
+  ), <NOA2_celltype>,
+
+  //------------------
+
+  figure(
+    image("figs/NOA3_atac_files/NOA3_atac_35_0.png"),
+    caption: [NOA3 batch],
+  ), <NOA3_tech>,
+
+  figure(
+    image("figs/NOA3_atac_files/NOA3_atac_40_0.png"),
+    caption: [NOA3 celltype assignment],
+  ), <NOA3_celltype>,
+
+  //------------------
+
+  figure(
+    image("figs/OA1_atac_files/OA1_atac_36_0.png"),
+    caption: [OA1 batch],
+  ), <OA1_tech>,
+
+  figure(
+    image("figs/OA1_atac_files/OA1_atac_41_0.png"),
+    caption: [OA1 celltype assignment],
+  ), <OA1_celltype>,
+
+  //------------------
+
+  figure(
+    image("figs/OA2_atac_files/OA2_atac_35_0.png"),
+    caption: [OA2 batch],
+  ), <OA2_tech>,
+
+  figure(
+    image("figs/OA2_atac_files/OA2_atac_40_0.png"),
+    caption: [OA2 celltype assignment],
+  ), <OA2_celltype>,
+
+
+  columns: 2,
+  caption: [UMAP plots of integration of each scATAC-seq sample],
+  label: <atac_integration_individual>,
+)
 
 = pycistopic workflow
 
