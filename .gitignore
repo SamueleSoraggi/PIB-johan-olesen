@@ -212,4 +212,4 @@ Notebooks/atac_models/
 Notebooks/CellAssign_models/
 *.pkl
 Notebooks/lightning_logs/
-
+*.pdf
